@@ -1,11 +1,11 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=berurat.cloud
+DOMAIN=vpn-store.biz.id
 sub=$(cat /root/subdomainx)
-dns=${sub}.berurat.cloud
-dns2=*.${sub}.berurat.cloud
-CF_ID=kadeknovi148@gmail.com
-CF_KEY=45c11fd84f3ee1ce33070b0b653044e33b051
+dns=${sub}.vpn-store.biz.id
+dns2=*.${sub}.vpn-store.biz.id
+CF_ID=onlinegeme1@gmail.com
+CF_KEY=87ad47d95e30420fd5591dcd290c07a523d4d
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
@@ -43,12 +43,12 @@ echo $dns > /root/domain
 echo "$dns" > /etc/xray/domain
 echo "$dn!������MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=berurat.cloud
+DOMAIN=vpn-store.biz.id
 sub=$(cat /root/subdomainx)
-dns=${sub}.berurat.cloud
-dns2=*.${sub}.berurat.cloud
-CF_ID=kadeknovi148@gmail.com
-CF_KEY=45c11fd84f3ee1ce33070b0b653044e33b051
+dns=${sub}.vpn-store.biz.id
+dns2=*.${sub}.vpn-store.biz.id
+CF_ID=onlinegeme1@gmail.com
+CF_KEY=87ad47d95e30420fd5591dcd290c07a523d4d
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
